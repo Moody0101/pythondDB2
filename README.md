@@ -16,16 +16,15 @@ a python based database to store data in json base64 format and also retrieve ev
 
 	Database --login [dbName] [password] => consoles all the data in the db.
 	Database --login => will ask for dbName and paswword and outputs the db.
-	Database --getHeaders [dbName] [password] => gets and consoles all the headers
 	Database --getHeaders => gets and consoles all the headers (asks for name/password!)
-
-	Database --getItems [dbName] [password] => get the items.
+	Database --getItems
 
 #### POST functionality:
 
-	Database --register => to make new dataBase and password for it.
 	Database --register  [dbName] [password]=> to Make db more quickly.
 	Database --update [dbname] [password] [header] [data]
+	Database --register
+	Database --update
 
 #### clearing a Database:
 	Database --clear [dbname]  [password] 
@@ -38,5 +37,9 @@ this applies for all the flags.
 #### To see the doc:
 	
 > 	Database --help or -h => to get some help.
+
+#### Requirement:
+
+- colorama
 
 my First database *[Database 1](https://github.com/Moody0101/PythonDatabase)*.
